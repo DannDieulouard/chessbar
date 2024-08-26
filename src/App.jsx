@@ -34,7 +34,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/chessbar" element={<HomePage />} />
         <Route path="*" element={<NotFoundPage />} /> {/* This will catch all undefined routes */}
         <Route path="/concept" element={<ConceptPage />} />
         <Route path="/cities" element={<ListCitiesPage />} />
