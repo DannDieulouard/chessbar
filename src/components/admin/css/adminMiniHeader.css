@@ -46,7 +46,7 @@
   .searchBar .search {
     width: 20px;
     height: 20px;
-    background-image: url('path-to-your-search-icon.png'); /* Replace with the path to your search icon */
+    background-image: url(''); /* Replace with the path to your search icon */
     background-size: cover;
     margin-left: 10px;
     cursor: pointer;

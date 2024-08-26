@@ -35,7 +35,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/chessbar" element={<HomePage />} />
-        <Route path="/chessbar/*" element={<NotFoundPage />} /> This will catch all undefined routes
+        <Route path="*" element={<NotFoundPage />} /> This will catch all undefined routes
         <Route path="/chessbar/concept" element={<ConceptPage />} />
         <Route path="/chessbar/cities" element={<ListCitiesPage />} />
         <Route path="/chessbar/cities/details/:id" element={<DetailsCitiesPage />} />
