@@ -29,7 +29,7 @@ const AdminListUsers = () => {
       credentials: "include",
     }).then((response) => {
       if (response.status === 401) {
-        navigate("/login");
+        navigate("/chessbar/login");
       }
       setNeedRefresh(!needsRefresh);
     });
@@ -54,7 +54,7 @@ const AdminListUsers = () => {
                     <section>
                       <h4>{user.username}</h4>
                       <button className="delete" onClick={(event) => handleDeleteUser(event, user.id)}>Supprimer</button>
-                      <button className="modify"><Link to={`/admin/users/update/${user.id}`}>Modifier</Link></button>
+                      <button className="modify"><Link to={`/chessbar/admin/users/update/${user.id}`}>Modifier</Link></button>
                     </section>
                   </article>
                 ))
@@ -66,7 +66,7 @@ const AdminListUsers = () => {
         </main>
       ) : (
         useEffect(() => {
-          navigate("/");
+          navigate("/chessbar/");
         }, [])
       )}
     </>

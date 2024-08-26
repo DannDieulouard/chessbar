@@ -62,7 +62,7 @@ const UpdateUser = () => {
         return response.json();
       })
       .then((data) => {
-        navigate("/admin/users");
+        navigate("/chessbar/admin/users");
       });
   };
 
@@ -138,7 +138,7 @@ const UpdateUser = () => {
     </>
     ) : (
       useEffect(() => {
-        navigate("/")
+        navigate("/chessbar/")
             }, [])
      )}
     </main>

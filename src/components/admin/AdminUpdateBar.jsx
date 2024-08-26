@@ -62,7 +62,7 @@ const UpdateBar = () => {
         return response.json();
       })
       .then((data) => {
-        navigate("/admin/bars");
+        navigate("/chessbar/admin/bars");
       });
   };
 
@@ -132,7 +132,7 @@ const UpdateBar = () => {
     </>
     ) : (
       useEffect(() => {
-        navigate("/")
+        navigate("/chessbar/")
             }, [])
      )}
     </main>

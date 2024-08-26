@@ -47,7 +47,7 @@ const AdminDashboard = () => {
       credentials: "include",
     }).then((response) => {
       if (response.status === 401) {
-        navigate("/login");
+        navigate("/chessbar/login");
       }
       setNeedRefresh(!needsRefresh);
     });
@@ -113,7 +113,7 @@ const AdminDashboard = () => {
                               Supprimer
                             </button>
                             <button className="modify">
-                              <Link to={`/admin/bars/update/${bar.id}`}>
+                              <Link to={`/chessbar/admin/bars/update/${bar.id}`}>
                                 Modifier
                               </Link>
                             </button>
@@ -137,7 +137,7 @@ const AdminDashboard = () => {
                               Supprimer
                             </button>
                             <button className="modify">
-                              <Link to={`/admin/users/update/${user.id}`}>
+                              <Link to={`/chessbar/admin/users/update/${user.id}`}>
                                 Modifier
                               </Link>
                             </button>
@@ -165,7 +165,7 @@ const AdminDashboard = () => {
                               Supprimer
                             </button>
                             <button className="modify">
-                              <Link to={`/admin/tournaments/update/${tournament.id}`}>
+                              <Link to={`/chessbar/admin/tournaments/update/${tournament.id}`}>
                                 Modifier
                               </Link>
                             </button>
@@ -180,7 +180,7 @@ const AdminDashboard = () => {
         </main>
       ) : (
         useEffect(() => {
-          navigate("/");
+          navigate("/chessbar/");
         }, [])
       )}
     </>

@@ -30,7 +30,7 @@ const AdminListTournaments = () => {
       credentials: "include",
     }).then((response) => {
       if (response.status === 401) {
-        navigate("/login");
+        navigate("/chessbar/login");
       }
       setNeedRefresh(!needsRefresh);
     });
@@ -55,7 +55,7 @@ const AdminListTournaments = () => {
                     <section>
                       <h4>{tournament.name}</h4>
                       <button className="delete" onClick={(event) => handleDeleteTournament(event, tournament.id)}>Supprimer</button>
-                      <button className="modify"><Link to={`/admin/tournaments/update/${tournament.id}`}>Modifier</Link></button>
+                      <button className="modify"><Link to={`/chessbar/admin/tournaments/update/${tournament.id}`}>Modifier</Link></button>
                     </section>
                   </article>
                 ))
@@ -67,7 +67,7 @@ const AdminListTournaments = () => {
         </main>
       ) : (
         useEffect(() => {
-          navigate("/");
+          navigate("/chessbar/");
         }, [])
       )}
     </>

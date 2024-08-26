@@ -23,7 +23,7 @@ const DetailsCities = () => {
             return (
               <article key={bar.id}>
                 <h2>{bar.name}</h2>
-                <Link to={`/bars/details/${bar.id}`}>Voir le détail du bar</Link>
+                <Link to={`/chessbar/bars/details/${bar.id}`}>Voir le détail du bar</Link>
               </article>
             );
           })}

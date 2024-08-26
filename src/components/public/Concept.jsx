@@ -50,7 +50,7 @@ const Concept = () => {
                 <p>
                 Devenez le champion de votre bar et de votre ville !
                 </p>
-                <p className="subscribe"> <Link to="/tournaments">Je m'inscris</Link></p> 
+                <p className="subscribe"> <Link to="/chessbar/tournaments">Je m'inscris</Link></p> 
             </div>
             <div className="card">
             <Galleria value={images} responsiveOptions={responsiveOptions} numVisible={3} circular style={{ maxWidth: '420px' }}

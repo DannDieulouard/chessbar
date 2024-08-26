@@ -33,25 +33,25 @@ const Header = () => {
           <div className="line"></div>
         </div>
         <ul className="menu">
-          <li><Link to="/">ACCUEIL</Link></li>
-          <li><Link to="/concept">CONCEPT</Link></li>
-          <li><Link to="/bars">BARS</Link></li>
-          <li><Link to="/tournaments">TOURNOIS</Link></li>
-          <li><Link to="/rankings">CLASSEMENTS</Link></li>
-          <li><Link to="/rules">RÈGLEMENT</Link></li>
+          <li><Link to="/chessbar/">ACCUEIL</Link></li>
+          <li><Link to="/chessbar/concept">CONCEPT</Link></li>
+          <li><Link to="/chessbar/bars">BARS</Link></li>
+          <li><Link to="/chessbar/tournaments">TOURNOIS</Link></li>
+          <li><Link to="/chessbar/rankings">CLASSEMENTS</Link></li>
+          <li><Link to="/chessbar/rules">RÈGLEMENT</Link></li>
           {hasCookie ? (
             <>
               <li>
                 <button className="profile">
-                  <Link to={`/profile/update/${decodedToken.userId}`}></Link>
+                  <Link to={`/chessbar/profile/update/${decodedToken.userId}`}></Link>
                 </button>
               </li>
               <li>
-                <button className="logout"><Link to="/logout"></Link></button>
+                <button className="logout"><Link to="/chessbar/logout"></Link></button>
               </li>
             </>
           ) : (
-            <li><button className="login"><Link to="/login"></Link></button></li>
+            <li><button className="login"><Link to="/chessbar/login"></Link></button></li>
           )}
         </ul>
       </nav>

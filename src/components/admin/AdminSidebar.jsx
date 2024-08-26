@@ -22,31 +22,31 @@ const Sidebar = () => {
       <div className={`sidebar ${isOpen ? 'open' : ''}`}>
         <div className="sidebar-header">Admin</div>
         <List>
-          <ListItem component={Link} to="/admin">
+          <ListItem component={Link} to="/chessbar/admin">
             <ListItemIcon><DashboardIcon /></ListItemIcon>
             <ListItemText primary="Dashboard" />
           </ListItem>
-          <ListItem component={Link} to="/admin/users">
+          <ListItem component={Link} to="/chessbar/admin/users">
             <ListItemIcon><PeopleIcon /></ListItemIcon>
             <ListItemText primary="Utilisateurs" />
           </ListItem>
-          <ListItem component={Link} to="/admin/bars">
+          <ListItem component={Link} to="/chessbar/admin/bars">
             <ListItemIcon><SettingsIcon /></ListItemIcon>
             <ListItemText primary="Bars" />
           </ListItem>
-          <ListItem component={Link} to="/admin/tournaments">
+          <ListItem component={Link} to="/chessbar/admin/tournaments">
             <ListItemIcon><SettingsIcon /></ListItemIcon>
             <ListItemText primary="Tournois" />
           </ListItem>
-          <ListItem component={Link} to="/admin/rankings">
+          <ListItem component={Link} to="/chessbar/admin/rankings">
             <ListItemIcon><SettingsIcon /></ListItemIcon>
             <ListItemText primary="Classements" />
           </ListItem>
-          <ListItem component={Link} to="/logout">
+          <ListItem component={Link} to="/chessbar/logout">
             <ListItemIcon><SettingsIcon /></ListItemIcon>
             <ListItemText primary="Se déconnecter" />
           </ListItem>
-          <ListItem component={Link} to="/">
+          <ListItem component={Link} to="/chessbar/">
             <ListItemIcon><SettingsIcon /></ListItemIcon>
             <ListItemText primary="Homepage" />
           </ListItem>

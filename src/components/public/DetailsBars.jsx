@@ -33,7 +33,7 @@ const DetailsBars = () => {
 
           <p><span className="bolded">Contact</span> : {bar.phone}</p>
 
-          <p className="subscribe"> <Link to="/tournaments">Je m'inscris!</Link></p> 
+          <p className="subscribe"> <Link to="/chessbar/tournaments">Je m'inscris!</Link></p> 
         </>
       ) : (
         <h2>Bar non trouvé</h2>

@@ -30,7 +30,7 @@ const AdminListBars = () => {
       credentials: "include",
     }).then((response) => {
       if (response.status === 401) {
-        navigate("/login");
+        navigate("/chessbar/login");
       }
       setNeedRefresh(!needsRefresh);
     });
@@ -55,7 +55,7 @@ const AdminListBars = () => {
                     <section>
                       <h4>{bar.name}</h4>
                       <button className="delete" onClick={(event) => handleDeleteBar(event, bar.id)}>Supprimer</button>
-                      <button className="modify"><Link to={`/admin/bars/update/${bar.id}`}>Modifier</Link></button>
+                      <button className="modify"><Link to={`/chessbar/admin/bars/update/${bar.id}`}>Modifier</Link></button>
                     </section>
                   </article>
                 ))
@@ -67,7 +67,7 @@ const AdminListBars = () => {
         </main>
       ) : (
         useEffect(() => {
-          navigate("/");
+          navigate("/chessbar/");
         }, [])
       )}
     </>

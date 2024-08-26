@@ -9,10 +9,10 @@ const AdminMiniHeader = ({ searchQuery, setSearchQuery }) => {
             <div className="search"></div>
           </div>
             <ul className="menuAdmin">
-          <li><Link to="/admin/bars/create">Créer un bar</Link></li>
-          <li><Link to="/admin/tournaments/create">Créer un tournoi</Link></li>
-          <li><Link to="/admin/rankings/create">Créer un classement</Link></li>
-          <li><Link to="/admin/users/create">Créer un utilisateur</Link></li>
+          <li><Link to="/chessbar/admin/bars/create">Créer un bar</Link></li>
+          <li><Link to="/chessbar/admin/tournaments/create">Créer un tournoi</Link></li>
+          <li><Link to="/chessbar/admin/rankings/create">Créer un classement</Link></li>
+          <li><Link to="/chessbar/admin/users/create">Créer un utilisateur</Link></li>
         </ul>
         </>
     );

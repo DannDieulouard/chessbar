@@ -52,7 +52,7 @@ const UpdateTournament = () => {
         return response.json();
       })
       .then((data) => {
-        navigate("/admin/tournaments");
+        navigate("/chessbar/admin/tournaments");
       });
   };
 
@@ -104,7 +104,7 @@ const UpdateTournament = () => {
     </>
     ) : (
       useEffect(() => {
-        navigate("/")
+        navigate("/chessbar/")
             }, [])
      )}
     </main>

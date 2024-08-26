@@ -48,7 +48,7 @@ const UpdateRanking = () => {
         return response.json();
       })
       .then((data) => {
-        navigate("/admin/rankings");
+        navigate("/chessbar/admin/rankings");
       });
   };
 
@@ -76,7 +76,7 @@ const UpdateRanking = () => {
     </>
     ) : (
       useEffect(() => {
-        navigate("/")
+        navigate("/chessbar/")
             }, [])
      )}
     </main>
