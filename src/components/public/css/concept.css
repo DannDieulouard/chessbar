@@ -1,0 +1,43 @@
+.concept {
+    margin-top: 50px;
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.concept p {
+    line-height: 1.5rem;
+}
+
+.subscribe {
+    width: 90px;
+    height: 20px;
+    background-color: #654028;
+    padding: 10px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+.subscribe a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.subscribe:hover {
+    background-color: #BE9472;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}

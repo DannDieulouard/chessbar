@@ -1,0 +1,41 @@
+.barDetail {
+    margin-top: 50px;
+    width: 900px;
+    height: 110px;
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.barDetail p {
+    line-height: 1.5rem;
+}
+
+.bolded {
+    font-weight: bold;
+  }
+
+.subscribe {
+    width: 90px;
+    height: 20px;
+    background-color: #bb8e6b;
+    padding: 10px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+.subscribe a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.subscribe:hover {
+    background-color: goldenrod;
+}

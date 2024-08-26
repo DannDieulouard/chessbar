@@ -1,0 +1,77 @@
+/* Configuration du footer */
+
+.pieddepage {
+    background-color: rgb(230, 230, 230);
+    color: black;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.pieddepage a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 1rem;
+}
+
+
+.pieddepage li a:hover {
+    padding: 0 1rem;
+    color: goldenrod;
+}
+
+.footer_logo {
+    text-align: center;
+}
+
+.footer_logo img {
+    height: 70%;
+    width: 70%;
+}
+
+.instagram-button {
+    text-align: center;
+}
+
+.instagram-button a {
+    text-decoration: none;
+}
+
+.instagram-button a img {
+    height: 40px;
+    width: 40px;
+}
+
+.instagram-icon {
+    transition: transform 0.3s;
+}
+
+.instagram-icon:hover {
+    transform: scale(1.1);
+}
+
+.facebook-button {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.facebook-button a {
+    text-decoration: none;
+}
+.facebook-button a img {
+    height: 40px;
+    width: 40px;
+}
+
+.facebook-icon {
+    transition: transform 0.3s;
+}
+
+.facebook-icon:hover {
+    transform: scale(1.1);
+}
+

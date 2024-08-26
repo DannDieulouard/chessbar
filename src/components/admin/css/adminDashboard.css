@@ -1,0 +1,150 @@
+.flex_dashboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.flex_list {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 50px;
+    height: auto;
+}
+
+.flex_list article {
+    margin: 0 20px;
+}
+
+.flex_list article section h4{
+    text-align: center;
+}
+
+.button {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.modify {
+    background-color: #BE9472;
+    color: white;
+}
+
+.modify a {
+    text-decoration: none;
+    color: white;
+}
+
+.modify:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modify:active {
+    box-shadow: none;
+}
+
+.delete {
+    background-color: #654028;
+    color: white;
+}
+
+.delete:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.delete:active {
+    box-shadow: none;
+}
+
+.flex_list h3 {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .flex_list article {
+    margin-bottom: 15px;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-bar input {
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .flex_dashboard {
+    display: flex;
+  }
+  
+  aside {
+    width: 250px; /* Adjust width as needed */
+    background-color: #BE9472;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+  }
+
+  .kpi-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .kpi-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px; /* Adjust width as needed */
+  }
+  
+  .kpi-card h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .kpi-card p {
+    font-size: 1rem;
+    color: #888;
+    margin: 0;
+  }
+  
+  .flex_list {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  @media (max-width: 768px) {
+    .search-bar input {
+      width: 40%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .search-bar input {
+      width: 30%;
+    }
+    .kpi-card {
+      width: auto;
+    }
+  }

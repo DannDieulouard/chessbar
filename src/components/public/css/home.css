@@ -1,0 +1,124 @@
+/* Configuration du main */
+
+.intro {
+    margin-top: 50px;
+    width: 60%;
+    height: 110px;
+    background-color: white;
+    margin-bottom: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro p {
+    line-height: 1.5rem;
+}
+
+.subscribe {
+    width: 90px;
+    height: 20px;
+    background-color: #bb8e6b;
+    padding: 10px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+.subscribe a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.subscribe:hover {
+    background-color: goldenrod;
+}
+
+.villes{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+h2 {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.features {
+    
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    margin-block-end: 50px;
+    background-color: #282725;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.features img {
+    height: 160px;
+    width: 300px;
+}
+
+.features h3 {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.features p {
+    text-align:left;
+    position:relative;
+    top: 10px;
+    left: 10px;
+    right: 20px;
+    color: white;
+    text-align: left;
+    line-height: 1rem;
+}
+
+.features a {
+    text-decoration: none;
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    line-height: 1rem;
+}
+
+@media (max-width: 768px) {
+    .intro {
+        width: 80%;
+    }
+}
+
+  @media (max-width: 470px) {
+    .intro {
+        width: 100%;
+        position: relative;
+        padding-bottom: 100px;
+    }
+    .title {
+        margin-bottom: 50px;
+    }
+    .villes {
+        margin: 0;
+    }
+  }

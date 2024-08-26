@@ -1,0 +1,37 @@
+.rankings {
+    margin-top: 50px;
+    margin-left: 240px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.rankingAccess {
+    width: 90px;
+    height: 20px;
+    padding: 10px 20px;
+    background-color: #654028;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+.rankingAccess:hover {
+    background-color: #BE9472;
+}
+
+@media (max-width: 768px) {
+    .rankings {
+        margin-top: 160px;
+        margin-bottom: 160px;
+    }
+}
