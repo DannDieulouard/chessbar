@@ -35,34 +35,34 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/chessbar" element={<HomePage />} />
-        <Route path="*" element={<NotFoundPage />} /> {/* This will catch all undefined routes */}
-        <Route path="/concept" element={<ConceptPage />} />
-        <Route path="/cities" element={<ListCitiesPage />} />
-        <Route path="/cities/details/:id" element={<DetailsCitiesPage />} />
-        <Route path="/bars" element={<ListBarsPage />} />
-        <Route path="/bars/details/:id" element={<DetailsBarPage />} />
-        <Route path="/tournaments" element={<TournamentsPage />} />
-        <Route path="/rankings" element={<RankingsPage />} />
-        <Route path="/rules" element={<RulesPage />} />
+        <Route path="*" element={<NotFoundPage />} /> This will catch all undefined routes
+        <Route path="/chessbar/concept" element={<ConceptPage />} />
+        <Route path="/chessbar/cities" element={<ListCitiesPage />} />
+        <Route path="/chessbar/cities/details/:id" element={<DetailsCitiesPage />} />
+        <Route path="/chessbar/bars" element={<ListBarsPage />} />
+        <Route path="/chessbar/bars/details/:id" element={<DetailsBarPage />} />
+        <Route path="/chessbar/tournaments" element={<TournamentsPage />} />
+        <Route path="/chessbar/rankings" element={<RankingsPage />} />
+        <Route path="/chessbar/rules" element={<RulesPage />} />
 
-        <Route path="/signup" element={<SignupPage />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/profile/update/:id" element={<UpdateProfilePage />} />
-        <Route path="/logout" element={<LogoutPage />} />
+        <Route path="/chessbar/signup" element={<SignupPage />} />
+        <Route path="/chessbar/login" element={<LoginPage />} />
+        <Route path="/chessbar/profile/update/:id" element={<UpdateProfilePage />} />
+        <Route path="/chessbar/logout" element={<LogoutPage />} />
 
-        <Route path="/admin" element={<AdminDashboardPage />} />
-        <Route path="/admin/users" element={<AdminListUsersPage />} />
-        <Route path="/admin/users/create" element={<AdminCreateUserPage />} />
-        <Route path="/admin/users/update/:id" element={<AdminUpdateUserPage />} />
-        <Route path="/admin/bars" element={<AdminListBarsPage />} />
-        <Route path="/admin/bars/create" element={<AdminCreateBarPage />} />
-        <Route path="/admin/bars/update/:id" element={<AdminUpdateBarPage />} />
-        <Route path="/admin/tournaments" element={<AdminListTournamentsPage />} />
-        <Route path="/admin/tournaments/create" element={<AdminCreateTournamentsPage />} />
-        <Route path="/admin/tournaments/update/:id" element={<AdminUpdateTournamentPage />} />
-        <Route path="/admin/rankings" element={<AdminListRankingsPage />} />
-        <Route path="/admin/rankings/create" element={<AdminCreateRankingsPage />} />
-        <Route path="/admin/rankings/update/:id" element={<AdminUpdateRankingPage />} />
+        <Route path="/chessbar/admin" element={<AdminDashboardPage />} />
+        <Route path="/chessbar/admin/users" element={<AdminListUsersPage />} />
+        <Route path="/chessbar/admin/users/create" element={<AdminCreateUserPage />} />
+        <Route path="/chessbar/admin/users/update/:id" element={<AdminUpdateUserPage />} />
+        <Route path="/chessbar/admin/bars" element={<AdminListBarsPage />} />
+        <Route path="/chessbar/admin/bars/create" element={<AdminCreateBarPage />} />
+        <Route path="/chessbar/admin/bars/update/:id" element={<AdminUpdateBarPage />} />
+        <Route path="/chessbar/admin/tournaments" element={<AdminListTournamentsPage />} />
+        <Route path="/chessbar/admin/tournaments/create" element={<AdminCreateTournamentsPage />} />
+        <Route path="/chessbar/admin/tournaments/update/:id" element={<AdminUpdateTournamentPage />} />
+        <Route path="/chessbar/admin/rankings" element={<AdminListRankingsPage />} />
+        <Route path="/chessbar/admin/rankings/create" element={<AdminCreateRankingsPage />} />
+        <Route path="/chessbar/admin/rankings/update/:id" element={<AdminUpdateRankingPage />} />
         
       </Routes>
     </BrowserRouter>

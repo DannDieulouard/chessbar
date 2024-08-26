@@ -24,7 +24,7 @@ const ListBars = () => {
           return (
             <article className="listBars" key={bar.id}>
               <h2>{bar.name} - {bar.city}</h2>
-              <Link to={`/bars/details/${bar.id}`}>
+              <Link to={`/chessbar/bars/details/${bar.id}`}>
               <img src={bar.imageUrl} alt="barLogo"/>
               </Link>
             </article>

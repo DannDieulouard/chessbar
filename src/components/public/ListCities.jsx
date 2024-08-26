@@ -27,7 +27,7 @@ const ListCities = () => {
           return (
             <article key={city.id}>
               <h2>{city.name}</h2>
-              <Link to={`/bars/details/${city.id}`}>
+              <Link to={`/chessbar/bars/details/${city.id}`}>
               <img src={city.imageUrl} alt="cityLogo"/>
               </Link>
             </article>
