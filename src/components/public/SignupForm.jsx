@@ -42,7 +42,7 @@ const SignupForm = () => {
       credentials: "include",
     }).then((response) => {
       if (response.status === 200) {
-        navigate('/login')
+        navigate('/chessbar/login')
         const Toast = Swal.mixin({
           toast: true,
           position: 'top-end',

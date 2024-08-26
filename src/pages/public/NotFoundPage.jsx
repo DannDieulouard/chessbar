@@ -9,7 +9,7 @@ const NotFoundPage = () => {
       <h2 className="not-found-title">404</h2>
       <img src={logo} alt="logo" />
       <p className="not-found-message">Oops! La page que vous recherchez n'existe pas.</p>
-      <Link to="/" className="home-link">Retour à l'accueil</Link>
+      <Link to="/chessbar/" className="home-link">Retour à l'accueil</Link>
     </div>
   );
 };

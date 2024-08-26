@@ -12,7 +12,7 @@ const LogoutForm = () => {
       credentials: "include",
     }).then((response) => {
       if (response.status === 200) {
-        navigate('/')
+        navigate('/chessbar/')
         const Toast = Swal.mixin({
           toast: true,
           position: 'top-end',

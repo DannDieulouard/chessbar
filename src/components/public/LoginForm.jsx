@@ -30,7 +30,7 @@ const LoginForm = () => {
     }).then((response) => {
       if (response.status === 200) {
         setMessage("Connexion Réussie")
-        navigate('/admin')
+        navigate('/chessbar/admin')
           const Toast = Swal.mixin({
             toast: true,
             position: 'top-end',

@@ -123,7 +123,7 @@ const UpdateProfile = () => {
               text: "Votre compte a bien été supprimé.",
               icon: "success"
             });
-            navigate("/login")
+            navigate("/chessbar/login")
           }
         });
       } else {
@@ -225,7 +225,7 @@ const UpdateProfile = () => {
           </div>
         </div>
       ) : (
-        navigate("/")
+        navigate("/chessbar/")
       )}
       </div>
     </>
