@@ -10,6 +10,10 @@ const DetailsBars = () => {
   useEffect(() => {
     fetch("http://chessbar-7ee82a4295af.herokuapp.com/api/bars/" + id, {
       method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },  
+      credentials: "include",
     })
       .then((response) => {
         return response.json();

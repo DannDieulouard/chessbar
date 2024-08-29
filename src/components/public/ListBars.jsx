@@ -8,6 +8,10 @@ const ListBars = () => {
   useEffect(() => {
     fetch("https://chessbar-7ee82a4295af.herokuapp.com/api/bars", {
       method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },  
+      credentials: "include",
     })
       .then((response) => {
         return response.json();

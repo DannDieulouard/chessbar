@@ -8,6 +8,10 @@ const ListCities = () => {
   useEffect(() => {
     fetch("http://chessbar-7ee82a4295af.herokuapp.com/api/cities", {
       method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },  
+      credentials: "include",
     })
       .then((response) => {
         return response.json();
