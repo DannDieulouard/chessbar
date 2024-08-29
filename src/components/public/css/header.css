@@ -223,6 +223,12 @@ nav {
     height: 50px;
     width: 50px;
   }
+
+  button.login {
+    position: absolute;
+    top: 82%;
+    left: 46%;
+  }
 }
 
 @media (max-width: 470px) {
@@ -254,6 +260,12 @@ nav {
 
   .menu a, .menu button {
     color: white;
+  }
+
+  button.login {
+    position: absolute;
+    top: 82%;
+    left: 42%;
   }
 
   header h1 {

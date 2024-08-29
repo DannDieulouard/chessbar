@@ -21,6 +21,7 @@ const LoginForm = () => {
     const loginDataJson = JSON.stringify(loginData);
 
     fetch("http://chessbar-7ee82a4295af.herokuapp.com/api/users/login", {
+      // fetch("http://localhost:5000/api/users/login", {
       method: "POST",
       body: loginDataJson,
       headers: {
@@ -86,7 +87,7 @@ const LoginForm = () => {
                 </div>
                 <button className="Login" type="submit">Connexion</button>
       </form>
-      <p className="signupText">Pas encore de compte? Je m'inscris !<Link className="signupAccess" to="/signup"></Link></p>
+      <p className="signupText">Pas encore de compte? Je m'inscris !<Link className="signupAccess" to="/chessbar/signup"></Link></p>
       </div>
     </div>
     </>
