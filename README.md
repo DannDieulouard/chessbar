@@ -30,11 +30,11 @@ Ensure you have the following software installed:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/chessBar_front.git
+   git clone https://github.com/yourusername/chessbar.git
 
 2. Navigate to the project directory:
    ```sh
-    cd chessBar_front
+    cd chessbar
 
 3. Install the dependencies:
    ```sh
@@ -52,7 +52,7 @@ Ensure you have the following software installed:
 
 The project structure is as follows:
 ```sh
-chessBar_front/
+chessbar/
 ├── public/
 │   ├── index.html
 │   └── ...
@@ -118,7 +118,7 @@ We welcome contributions! Please follow these steps to contribute:
 1. Fork the repository.
 2. Create a new branch:
 ```sh
-git checkout -b feature/chessBar_front
+git checkout -b feature/chessbar
 ```
 
 3. Make your changes and commit them:
