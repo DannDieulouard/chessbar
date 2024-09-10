@@ -40,7 +40,7 @@ const DetailsBars = () => {
           <p className="subscribe"> <Link to="/chessbar/tournaments">Je m'inscris!</Link></p> 
         </>
       ) : (
-        <h2>Bar non trouvé</h2>
+        <h2>...</h2>
       )}
     </div>
   );
